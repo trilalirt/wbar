@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/Lin_4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue"
+    android:orientation="horizontal" >
+
+   <LinearLayout
+       android:id="@+id/Lin_3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/Bgol"
+       android:orientation="vertical"
+       android:padding="10dp" 
+       android:tag="suka" >
+  
+ <LinearLayout
+     android:id="@+id/Lin_2"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@color/Dor"
+     android:orientation="horizontal" >
+
+     <ImageView
+         android:id="@+id/imagk"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+          android:background="@color/Bgol"
+         android:focusable="true"
+         android:onClick="sel_it"
+         android:scaleType="fitXY" >
+
+     </ImageView>
+
+     <LinearLayout
+         android:id="@+id/Lin_1"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:background="@color/Blue"
+         android:orientation="vertical"
+         android:paddingBottom="8dp"
+         android:paddingTop="8dp" >
+
+         <Button
+             android:id="@+id/bnew"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:onClick="oclBt"
+             android:text="Chng"
+             android:textColorHint="@color/Black" />
+
+ 
+         <Button
+             android:id="@+id/newtekst"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:onClick="oclBt"
+             android:text="vice" />
+
+         <CheckBox
+             android:id="@+id/btriger"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:onClick="oclBt"
+             android:text="CheckBox" />
+                  <Button
+             android:id="@+id/udalim"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:onClick="oclBt"
+             android:text="Delete"  />
+
+         
+     </LinearLayout>
+
+     <!-- 1e	 3 вертикальных баттона -->
+
+ </LinearLayout>
+
+							<!--	2e горизонткартина картинка и (3 батона вертикально)	-->
+  
+       <TextView
+           android:id="@+id/textk"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="8"
+           android:background="@color/Orange"
+           android:gravity="top"
+           android:text="TextView"
+           android:textSize="24sp" >
+
+   </TextView>
+  </LinearLayout>							<!--	3e вертикал 1ая строка картинаи и (3 вертикаль батона) 2-строка текст	-->   
+   
+  </LinearLayout>							<!--	4e	-->       

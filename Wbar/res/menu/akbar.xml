@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+ <item
+ android:id="@+id/pirog"
+ android:icon="@drawable/pirog"
+ android:showAsAction="always" >
+ </item> 
+ <item
+ android:id="@+id/karandash"
+ android:icon="@drawable/penc"
+ android:showAsAction="always"
+  ></item> 
+</menu>
+ <!-- android:title="@string/item1" -->
+  <!--android:title="@string/item2" -->
